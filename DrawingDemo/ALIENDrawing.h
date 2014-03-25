@@ -1,5 +1,5 @@
 //
-//  ALIENViewController.h
+//  ALIENDrawing.h
 //  DrawingDemo
 //
 //  Created by AlienLi on 14-3-25.
@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface ALIENViewController : UIViewController
+
+@interface ALIENDrawing : UIView
 {
 }
 @end
+

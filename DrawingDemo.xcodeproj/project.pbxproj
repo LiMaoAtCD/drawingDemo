@@ -21,6 +21,8 @@
 		871B05BF18E12277006C68F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871B05A118E12277006C68F5 /* UIKit.framework */; };
 		871B05C718E12277006C68F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 871B05C518E12277006C68F5 /* InfoPlist.strings */; };
 		871B05C918E12277006C68F5 /* DrawingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 871B05C818E12277006C68F5 /* DrawingDemoTests.m */; };
+		871B05D418E12296006C68F5 /* ALIENDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 871B05D318E12296006C68F5 /* ALIENDrawing.m */; };
+		871B05D618E14C8C006C68F5 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 871B05D518E14C8C006C68F5 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		871B05C418E12277006C68F5 /* DrawingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingDemoTests-Info.plist"; sourceTree = "<group>"; };
 		871B05C618E12277006C68F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		871B05C818E12277006C68F5 /* DrawingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingDemoTests.m; sourceTree = "<group>"; };
+		871B05D218E12296006C68F5 /* ALIENDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALIENDrawing.h; sourceTree = "<group>"; };
+		871B05D318E12296006C68F5 /* ALIENDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALIENDrawing.m; sourceTree = "<group>"; };
+		871B05D518E14C8C006C68F5 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,7 @@
 		871B059118E12277006C68F5 = {
 			isa = PBXGroup;
 			children = (
+				871B05D518E14C8C006C68F5 /* demo.png */,
 				871B05A318E12277006C68F5 /* DrawingDemo */,
 				871B05C218E12277006C68F5 /* DrawingDemoTests */,
 				871B059C18E12277006C68F5 /* Frameworks */,
@@ -117,6 +123,8 @@
 				871B05AF18E12277006C68F5 /* Main.storyboard */,
 				871B05B218E12277006C68F5 /* ALIENViewController.h */,
 				871B05B318E12277006C68F5 /* ALIENViewController.m */,
+				871B05D218E12296006C68F5 /* ALIENDrawing.h */,
+				871B05D318E12296006C68F5 /* ALIENDrawing.m */,
 				871B05B518E12277006C68F5 /* Images.xcassets */,
 				871B05A418E12277006C68F5 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871B05D618E14C8C006C68F5 /* demo.png in Resources */,
 				871B05B618E12277006C68F5 /* Images.xcassets in Resources */,
 				871B05A818E12277006C68F5 /* InfoPlist.strings in Resources */,
 				871B05B118E12277006C68F5 /* Main.storyboard in Resources */,
@@ -252,6 +261,7 @@
 			files = (
 				871B05AE18E12277006C68F5 /* ALIENAppDelegate.m in Sources */,
 				871B05AA18E12277006C68F5 /* main.m in Sources */,
+				871B05D418E12296006C68F5 /* ALIENDrawing.m in Sources */,
 				871B05B418E12277006C68F5 /* ALIENViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +467,7 @@
 				871B05CE18E12277006C68F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		871B05CF18E12277006C68F5 /* Build configuration list for PBXNativeTarget "DrawingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				871B05D118E12277006C68F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
